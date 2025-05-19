@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  // border: 1px solid red;
+  .heading {
+    text-align: center;
+    // border: 1px solid green;
+    font-size: 60px;
+    span {
+      font-size: 16px;
+    }
+  }
+}
