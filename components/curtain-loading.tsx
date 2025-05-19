@@ -4,7 +4,9 @@ import IconLoading from "./icon-loading";
 const CurtainLoading = () => {
   return (
     <div className={styles.container}>
-      <IconLoading />
+      <p className={styles.text}>
+        Pulling back the curtains <IconLoading />
+      </p>
     </div>
   );
 };
