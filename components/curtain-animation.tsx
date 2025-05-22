@@ -31,7 +31,7 @@ const CurtainAnimation = ({ onLoad }: CurtainAnimationProps) => {
 
       for (let i = 1; i <= 108; i++) {
         const frame = String(i).padStart(4, "0");
-        framePaths.push(`/curtain/curtain 01.0002_1.${frame}.png`);
+        framePaths.push(`/curtain-toon/curtain toon.${frame}.webp`);
       }
 
       // Load the animation sprite sheet
@@ -63,6 +63,8 @@ const CurtainAnimation = ({ onLoad }: CurtainAnimationProps) => {
           textures={frames}
           x={app.screen.width / 2}
           y={app.screen.height / 2}
+          width={app.screen.width}
+          height={app.screen.height}
           anchor={0.5}
           animationSpeed={0.5}
           onFrameChange={onLoad}
