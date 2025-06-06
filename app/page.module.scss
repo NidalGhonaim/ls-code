@@ -1,20 +1,9 @@
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  // border: 1px solid red;
-  .main {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  .heading {
-    // text-align: center;
-    // border: 1px solid skyblue;
-    font-size: 60px;
-    span {
-      font-size: 16px;
-    }
+  flex-direction: column;
+  .lorem {
+    max-width: 920px;
+    padding: 32px;
+    margin: 0 auto;
   }
 }
