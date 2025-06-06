@@ -1,6 +1,7 @@
 import Microscope from "@/components/microscope";
 import styles from "./page.module.scss";
 import Shredder from "@/components/shredder";
+import Flasks from "@/components/flasks";
 // import Curtain from "@/components/curtain";
 
 export default function Home() {
@@ -51,6 +52,19 @@ export default function Home() {
               {`Do you have something you have always wanted to ask about crop
               protection, formulation, or production? Ask one of our scientists
               here!`}
+            </p>
+          </>
+        }
+      />
+      <Flasks
+        title="But wait, there's more!"
+        content={
+          <>
+            <p>
+              {`We are expanding our range to include more innovative plant protection solutions, including improved formulations and novel combinations. Our unique knowledge of off-patent science means we can rapidly incorporate new ideas and technologies to ensure our customers have access to the latest and best innovations in the industry.`}
+            </p>
+            <p>
+              {`Our range today is based on chemicals, but we are working on developing complementary biocontrol solutions.`}
             </p>
           </>
         }
