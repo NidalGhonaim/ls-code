@@ -118,6 +118,7 @@ const Shredder = ({ title, content }: ShredderProps) => {
           <div ref={line1} className={`${styles.line} ${styles.line1}`} />
           <div ref={line2} className={`${styles.line} ${styles.line2}`} />
           <div ref={line3} className={`${styles.line} ${styles.line3}`} />
+          <p className={styles.label}>COST SHREDDER</p>
           <Image
             ref={expired}
             className={styles.expired}

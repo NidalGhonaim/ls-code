@@ -60,6 +60,16 @@
       z-index: 3;
       opacity: 0;
     }
+    .label {
+      position: absolute;
+      left: 50%;
+      bottom: 12%;
+      transform: translateX(-50%);
+      font-size: calc(2vw + 10px);
+      font-weight: bold;
+      color: #938367;
+      z-index: 4;
+    }
     .shredder {
       width: 100%;
       max-width: 1366px;
