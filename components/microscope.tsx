@@ -88,13 +88,13 @@ const Microscope = ({ title, content }: MicroscopeProps) => {
           />
         </div>
         <div className={styles.pinned}>
-          <h1 ref={heading} className={styles.title}>
+          <h2 ref={heading} className={styles.title}>
             {title}
-          </h1>
+          </h2>
         </div>
       </div>
       <div className={styles.body}>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         {content}
       </div>
     </div>
