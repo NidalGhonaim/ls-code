@@ -22,12 +22,21 @@ body {
   font-family: var(--font-sora), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 16px;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+h1 {
+  font-size: calc(36px + 5vw);
+}
+
+h2 {
+  font-size: calc(24px + 2vw);
 }
 
 h1,
