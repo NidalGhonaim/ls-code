@@ -6,6 +6,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    transform: translateY(64px);
     // border: 1px solid red;
     margin-bottom: max(5vw, 96px);
     .patent {

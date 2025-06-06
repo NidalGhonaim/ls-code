@@ -1,0 +1,31 @@
+.container {
+  background-color: hsla(166, 92%, 10%, 0.9);
+  backdrop-filter: blur(32px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  margin-bottom: 5vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  .menu {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    .icon {
+      display: none;
+    }
+    @media screen and (max-width: 800px) {
+      .link {
+        display: none;
+      }
+      .icon {
+        display: initial;
+      }
+    }
+  }
+}
