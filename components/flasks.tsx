@@ -1,12 +1,7 @@
 "use client";
 
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./flasks.module.scss";
-import { useGSAP } from "@gsap/react";
 import { ReactNode } from "react";
-import gsap from "gsap";
-
-gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 type FlasksProps = {
   title: string;
